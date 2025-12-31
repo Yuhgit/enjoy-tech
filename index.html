@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ENJOY TECHは、ビジネスを成功へ導くWebサイト制作サービスを提供しています。レスポンシブ対応の美しいWebサイト、ブランディングに最適なデザイン、継続的な運用サポートまで、お客様のご要望に応じた最適なソリューションを提供します。"
+    />
+
+    <!-- OGP（Open Graph Protocol） -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="ENJOY TECH - ビジネスを成功へ導くWebサイトを"
+    />
+    <meta
+      property="og:description"
+      content="お客様のニーズに寄り添い、効果的なWebソリューションを提供いたします。レスポンシブ対応の美しいWebサイト、ブランディングに最適なデザイン、継続的な運用サポートまで対応。"
+    />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:site_name" content="ENJOY TECH" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="ENJOY TECH - ビジネスを成功へ導くWebサイトを"
+    />
+    <meta
+      name="twitter:description"
+      content="お客様のニーズに寄り添い、効果的なWebソリューションを提供いたします。"
+    />
+
+    <title>ENJOY TECH - ビジネスを成功へ導くWebサイトを</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/destyle.css@latest/destyle.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header class="header">
+      <div class="header__container">
+        <a href="#" class="header__logo">
+          <img
+            src="images/logo.png"
+            alt="ENJOY TECH"
+            class="header__logo-img"
+          />
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">トップ</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">サービス</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">制作事例</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">会社概要</a>
+            </li>
+          </ul>
+          <button class="header__cta-button button button--primary">
+            お問い合わせ
+          </button>
+        </nav>
+        <button class="header__menu-button" aria-label="メニュー">
+          <img src="images/menu-icon.svg" alt="" class="header__menu-icon" />
+        </button>
+      </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">ビジネスを成功へ<br />導くWebサイトを。</h1>
+          <p class="hero__description">
+            お客様のニーズに寄り添い、効果的なWebソリューションを提供いたします。
+          </p>
+          <button class="hero__cta-button button button--primary">
+            お問い合わせ
+          </button>
+        </div>
+        <div class="hero__image">
+          <img
+            src="images/hero-image.png"
+            alt="ワークスペース"
+            class="hero__image-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- サービスセクション -->
+    <section class="services">
+      <div class="services__container container">
+        <div class="services__header section-header">
+          <span class="services__badge badge badge--primary-light"
+            >SERVICES</span
+          >
+          <h2 class="services__title section-title">サービス概要</h2>
+          <p class="services__description section-description">
+            お客様のご要望に応じた最適なソリューションを提供します
+          </p>
+        </div>
+        <div class="services__grid">
+          <div class="services__card">
+            <div class="services__card-icon">
+              <img
+                src="images/service-icon-1.svg"
+                alt="サイト制作"
+                class="services__card-icon-img"
+              />
+            </div>
+            <h3 class="services__card-title card-title">サイト制作</h3>
+            <p class="services__card-description card-description">
+              レスポンシブ対応の美しいWebサイトを制作。最新技術で高速・高品質なサイトを実現します。
+            </p>
+          </div>
+          <div class="services__card">
+            <div class="services__card-icon">
+              <img
+                src="images/service-icon-2.svg"
+                alt="デザイン"
+                class="services__card-icon-img"
+              />
+            </div>
+            <h3 class="services__card-title card-title">デザイン</h3>
+            <p class="services__card-description card-description">
+              ブランディングに最適なデザインをご提案。ユーザー体験を重視した設計を行います。
+            </p>
+          </div>
+          <div class="services__card">
+            <div class="services__card-icon">
+              <img
+                src="images/service-icon-3.svg"
+                alt="運用サポート"
+                class="services__card-icon-img"
+              />
+            </div>
+            <h3 class="services__card-title card-title">運用サポート</h3>
+            <p class="services__card-description card-description">
+              継続的な更新・管理でサイトを最適化。安心して運営できる体制をご提供します。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 制作実績セクション -->
+    <section class="works">
+      <div class="works__container container">
+        <div class="works__header section-header">
+          <span class="works__badge badge badge--primary">WORKS</span>
+          <h2 class="works__title section-title">制作実績</h2>
+          <p class="works__description section-description">
+            これまでに手がけた制作事例をご紹介します
+          </p>
+        </div>
+        <div class="works__grid">
+          <div class="works__card">
+            <div class="works__card-thumbnail">
+              <img
+                src="images/work-1.png"
+                alt="コーポレートサイト制作"
+                class="works__card-image"
+              />
+            </div>
+            <div class="works__card-content">
+              <h3 class="works__card-title card-title">
+                コーポレートサイト制作
+              </h3>
+              <p class="works__card-description card-description">
+                製造業A社のコーポレートサイトを制作。シンプルで信頼感のあるデザインを実現しました。
+              </p>
+            </div>
+          </div>
+          <div class="works__card">
+            <div class="works__card-thumbnail">
+              <img
+                src="images/work-2.png"
+                alt="ECサイトリニューアル"
+                class="works__card-image"
+              />
+            </div>
+            <div class="works__card-content">
+              <h3 class="works__card-title card-title">ECサイトリニューアル</h3>
+              <p class="works__card-description card-description">
+                アパレルブランドのECサイトをリニューアル。売上向上につながるUXを実現しました。
+              </p>
+            </div>
+          </div>
+          <div class="works__card">
+            <div class="works__card-thumbnail">
+              <img
+                src="images/work-3.png"
+                alt="ランディングページ制作"
+                class="works__card-image"
+              />
+            </div>
+            <div class="works__card-content">
+              <h3 class="works__card-title card-title">
+                ランディングページ制作
+              </h3>
+              <p class="works__card-description card-description">
+                サービス紹介に特化したランディングページ。コンバージョン率向上を実現しました。
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="works__more-button button button--outline">
+          <span class="works__more-button-text">実績をもっと見る</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- FAQセクション -->
+    <section class="faq">
+      <div class="faq__container container">
+        <div class="faq__header section-header">
+          <span class="faq__badge badge badge--primary-light">FAQ</span>
+          <h2 class="faq__title section-title">よくあるご質問</h2>
+          <p class="faq__description section-description">
+            お問い合わせの前に、こちらもご確認ください
+          </p>
+        </div>
+        <div class="faq__list">
+          <div class="faq__item">
+            <h3 class="faq__question">Q. 制作期間はどれくらいかかりますか？</h3>
+            <p class="faq__answer">
+              プロジェクトの規模により異なりますが、通常のコーポレートサイトで約3-4週間、ECサイトで6-8週間程度を目安としています。詳細はお打ち合わせの際にご説明いたします。
+            </p>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__question">Q. 制作費用はどれくらいですか？</h3>
+            <p class="faq__answer">
+              サイトの規模や機能により変動いたします。ランディングページは5万円から、小規模サイトは10万円からが目安です。お見積りは無料ですので、お気軽にお問い合わせください。
+            </p>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__question">Q. 制作後のサポートはありますか？</h3>
+            <p class="faq__answer">
+              はい、制作後も安心してご利用いただけるよう運用サポートプランをご用意しています。月額1万円からで、更新作業や技術サポートを承ります。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 最終CTAセクション -->
+    <section class="cta">
+      <div class="cta__background">
+        <img
+          src="images/cta-background.png"
+          alt=""
+          class="cta__background-image"
+        />
+        <div class="cta__overlay"></div>
+      </div>
+      <div class="cta__content">
+        <h2 class="cta__title">まずはお気軽にご相談ください</h2>
+        <p class="cta__description">
+          プロジェクトの規模に関わらず、どんなことでもお気軽にお問い合わせください
+        </p>
+        <button class="cta__button button button--white">お問い合わせ</button>
+      </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <div class="footer__container">
+        <a href="#" class="footer__logo">
+          <img
+            src="images/logo.png"
+            alt="ENJOY TECH"
+            class="footer__logo-img"
+          />
+        </a>
+        <p class="footer__copyright">© 2025 ENJOY TECH. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
